@@ -1,0 +1,35 @@
+body{ 
+    background-image: url(../img/back.png)
+    font-family: 'Indie Flower', cursive;
+}
+span{
+    margin-left:50px;
+}
+
+h1{ 
+    text-align:center;
+}
+
+.vraag{
+    background-color: aqua;
+    border-style: solid;
+    border-color:rgb(99, 96, 96);
+    font-family: 'Indie Flower', cursive;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-radius: 50px;
+}
+
+#vraag_1{ 
+    float: right;
+    margin-right: 50px;
+    font-family: 'Indie Flower', cursive;
+}
+
+#submit{ 
+    text-align: center;
+    color:green;
+    font-family: 'Indie Flower', cursive;
+}
