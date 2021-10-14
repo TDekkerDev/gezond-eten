@@ -34,3 +34,68 @@ h1{
     color:green;
     font-family: 'Indie Flower', cursive;
 }
+
+
+
+li,  button {
+    font-family: 'Ephesis', cursive;
+    font-weight: bold;
+    font-size: 25px;
+    color: teal;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: pointer;
+   margin:0;
+    width: 20%;
+    height: auto;
+    margin:0 auto;
+    /* zet de img meer naar rechts*/
+    position:relative;transform:translateX(-300px);
+}
+
+.nav {
+    list-style: none;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color:teal;
+}
+
+.nav li a:hover {
+    color: lightseagreen;
+}
+
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color:gray   ;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.6);
+}
+
+.active{
+    border:2px solid green
+
+}
