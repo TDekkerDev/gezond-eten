@@ -16,6 +16,8 @@
                 <li><a href="#">informatie</a></li>
                 <li><a href="#">games</a></li>
                 <li><a href="#">voedsel</a></li>
+                <li><a href="php/vragg.php">vragenlijft</a></li>
+
             </ul>
             <a class="button" href="contact.php"><button>Contact</button></a>
         </header>
