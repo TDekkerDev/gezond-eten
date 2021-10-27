@@ -1,24 +1,4 @@
-<!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Naviegatiebalk</title>
-        <link rel="stylesheet" href="css/home.css">
-    </head>
-    <body>
-        
-        <header>
-            <img class="logo" src="img/beter.png" alt="logo">
-            <ul class="nav">
-                <li><a href="home.php" class="active">Home</a></li>
-                <li><a href="#">informatie</a></li>
-                <li><a href="#">games</a></li>
-                <li><a href="#">voedsel</a></li>
-            </ul>
-            <a class="button" href="contact.php"><button>Contact</button></a>
-        </header>
+<?php include 'header.php';?>
 
 
 
@@ -32,20 +12,21 @@ Houd koek en snoepjes uit het zicht, bijvoorbeeld door het in de kast te leggen 
 Het <a href="https://www.voedingscentrum.nl/nl/gezond-eten-met-de-schijf-van-vijf/hoe-begin-ik-met-gezonder-eten-.aspx"> Voedingscentrum</a> heeft meer tips om te beginnen met gezonder eten. Wil je weten wat gezond eten eigenlijk is? En hoe jij een gezonde maaltijd
  op tafel kunt zetten? Kijk dan op de 
  <a href="https://www.voedingscentrum.nl/nl/gezond-eten-met-de-schijf-van-vijf/wat-staat-er-in-de-vakken-van-de-schijf-van-vijf.aspx">
- Schijf van Vijf</a>.</p>
+ Schijf van Vijf</a>. </p>
+ <img  src="../img/banaan.png" class="foto"> 
 </div>
 
-<img  src="img/banaan.png" class="foto">
+
 
 
 <div class="side">
-<pre>
+<p>
 <h3>Wat is goede voeding?</h3>
-Goede voeding zorgt voor genoeg energie en voedingsstoffen voor uw lichaam: eiwitten, vetten, koolhydraten, 
-vitamines, mineralen,
+Goede voeding zorgt voor genoeg energie en voedingsstoffen voor uw lichaam: eiwitten, 
+vetten, koolhydraten, vitamines, mineralen,
  vezels en voldoende vocht.
-Met goede voeding voelt u zich fitter. En u heeft een kleinere kans op diabetes, kanker en ziekten van uw 
-hart en bloedvaten, 
+Met goede voeding voelt u zich fitter. En u heeft een kleinere kans op diabetes, 
+kanker en ziekten van uw hart en bloedvaten, 
 zoals een beroerte of hartaanval.
 
 Goede voeding is:
@@ -62,18 +43,12 @@ Goede voeding is:
 *Rood vlees is vlees van koeien, schapen, geiten en varkens.
 *weinig dranken met suiker, zoals sap en fris
 
-</pre>
+</p>
+<img src="../img/healthy.png" class="img">
 </div>
 
 
-<img src="img/ontbijt.png" class="img">
 
 
-
-
-<footer>
-<span> <a href="contact.php">contact</a>  maker: Thomas Sit Thomas Dekker Maher abdalla</span>
-</footer>
    
-    </body>
-    </html>
+<?php include 'footer.php';?>
