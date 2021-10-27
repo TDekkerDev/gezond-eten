@@ -1,5 +1,5 @@
 <header>
-            <img class="logo" src="img/beter.png" alt="logo">
+            <img class="logo" src="../img/beter.png" alt="logo">
             <ul class="nav">
                 <li><a href="home.php" class="active">Home</a></li>
                 <li><a href="#">informatie</a></li>
