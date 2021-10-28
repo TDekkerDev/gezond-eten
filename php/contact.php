@@ -1,22 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/contact.css">
-    <title>Document</title>
-</head>
+<?php include "header.php";?>
+
 <body>
     
 <header>
-            <img class="logo" src="img/beter.png" alt="logo">
+            <img class="logo" src="../img/beter.png" alt="logo">
             <ul class="nav">
-                <li><a href="home.php" >Home</a></li>
-                <li><a href="#">informatie</a></li>
-                <li><a href="#">games</a></li>
-                <li><a href="" >voedsel</a></li>
-                
+                <li><a href="index.php" >Home</a></li>
+                <li><a href="informatie.php">informatie</a></li>
+                <li><a href="game.php" >games</a></li>
+                <li><a href="bmi.php" >bmi</a></li>
+                <li><a href="#">recepten</a></li>
+                <li><a href="vragg.php">vragenlijft</a></li>
+
             </ul>
             <a class="button" href="contact.php" class="active"><button>Contact</button></a>
         </header>
@@ -31,5 +26,4 @@ Tel:06 0725476600
 
 </pre>
 </div>
-</body>
-</html>
+<?php include 'footer.php'; ?>

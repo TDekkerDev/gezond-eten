@@ -1,7 +1,18 @@
 <?php include 'header.php'; ?>
 
-<?php include 'navbar.php'; ?>
+<header>
+            <img class="logo" src="../img/beter.png" alt="logo">
+            <ul class="nav">
+                <li><a href="index.php" class="active">Home</a></li>
+                <li><a href="informatie.php">informatie</a></li>
+                <li><a href="game.php">games</a></li>
+                <li><a href="bmi.php" >bmi</a></li>
+                <li><a href="#">recepten</a></li>
+                <li><a href="vragg.php" class="active">vragenlijfst</a></li>
 
+            </ul>
+            <a class="button" href="contact.php"><button>Contact</button></a>
+        </header>
 
         <h1>vraagen lijst</h1>
         
