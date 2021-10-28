@@ -41,21 +41,16 @@
     <h1 id="naam">gemaakt door Thomas dekker</h1>
     <br>
 
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<!-- gamesite -->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
      style="display:block"
-     data-ad-client="ca-pub-5029091454572166"
-     data-ad-slot="9613870875"
-     data-ad-format="auto"
-     google_adtest = on;
      data-adtest="on"
+     data-ad-client="ca-pub-0000000000000000"
+     data-ad-slot="0000000000"
+     data-ad-format="auto"
      data-full-width-responsive="true"></ins>
 <script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
+(adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 <div class="game">
     <canvas id="myCanvas" width="815" height="600"></canvas>
@@ -230,20 +225,6 @@
             </script>
     </div>
 
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5029091454572166"
-     crossorigin="anonymous"></script>
-<!-- gamesite -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-5029091454572166"
-     data-ad-slot="9613870875"
-     data-ad-format="auto"
-     google_adtest = on;
-     data-adtest="on"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 
 </body>
