@@ -1,19 +1,12 @@
-<?php include "header.php";?>
-    <body>
-        
-        <header>
-            <img class="logo" src="img/beter.png" alt="logo">
-            <ul class="nav">
-                <li><a href="home.php" class="active">Home</a></li>
-                <li><a href="informatie.php">informatie</a></li>
-                <li><a href="game.php">games</a></li>
-                <li><a href="bmi.php" >bmi</a></li>
-                <li><a href="#">recepten</a></li>
-                <li><a href="vragg.php">vragenlijft</a></li>
+<?php 
 
-            </ul>
-            <a class="button" href="contact.php"><button>Contact</button></a>
-        </header>
+$page = "home";
+
+include 'header.php'; 
+include 'navbar.php';
+
+?>
+<body>
 <div class="columnmain">
     <h4 style="font-family: 'Warnes', cursive;">Wil je gezonder gaan eten?</h2>
 <p style="font-family: 'Varela Round', sans-serif; ">  Zet kleine stappen en wees lief voor jezelf. Zo houd je het makkelijker vol.  

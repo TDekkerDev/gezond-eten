@@ -1,11 +1,18 @@
-<?php include 'header.php'; ?>
+<?php 
+
+$page = "game";
+
+include 'header.php'; 
+include 'navbar.php';
+
+?>
 
 
 <video autoplay muted loop id="myVideo">
   <source src="../img/media/vidio.mp4" type="video/mp4">
 </video>
 
-<?php include 'navbar.php'; ?>
+
 
     <h1 id="naam">gemaakt door Thomas dekker</h1>
     <br>
