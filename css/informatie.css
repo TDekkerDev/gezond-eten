@@ -1,0 +1,22 @@
+.body_infofrmatie{
+    display : flex;
+justify-content: center;
+height: 1500px;
+}
+
+.change{
+border: 2px solid black;
+border-radius: 25px;
+width:1000px;
+height:650px;
+}
+
+
+.fan{
+    margin-top: 25px;
+    margin-bottom: 35px;
+    border: 2px solid black;
+    border-radius: 25px;
+    width:1000px;
+    height:300px;
+}
