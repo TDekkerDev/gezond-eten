@@ -8,5 +8,6 @@
         <li><a href="recepten.php" class="<?php if ($page == "recepten") echo "active"; ?>">recepten</a></li>
         <li><a href="vragg.php" class="<?php if ($page == "vragenlijst") echo "active"; ?>">vragenlijst</a></li>
     </ul>
+    
     <a class="button" href="contact.php" class="<?php if ($page == "contact") echo "active"; ?>"><button>Contact</button></a>
 </header>

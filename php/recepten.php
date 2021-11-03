@@ -1,6 +1,6 @@
 <?php 
 
-$page = "informatie";
+$page = "recepten";
 
 include 'header.php'; 
 include 'navbar.php';

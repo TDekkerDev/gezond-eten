@@ -1,0 +1,47 @@
+
+.job{   
+border: 3px solid black;
+    display: flex;
+    margin: 20px;
+    font-size: 15px;
+    
+}
+.samenvatting{
+    width: 50%;
+    background-color: chartreuse;
+    margin: 20px;
+    padding: 20px;
+    
+}
+.bereiding{
+    width: 50%;
+    margin: 20px;
+    padding: 20px;
+    
+}
+
+#bereiding1{
+    background-image: url(../img/overnight-oats.jpg);
+    background-size: 100%;
+    font-weight: bold;
+}
+#bereiding2{
+    background-image: url(../img/588A5446.jpg.webp);
+    background-size: 100%;
+}
+#bereiding3{
+    background-image: url(../img/1822.jpg);
+    background-size: 100%;
+    font-weight: bold;
+}
+body{
+    background-color: chocolate;
+
+}
+
+.job{
+    border: 3px solid violet;
+    font-size: 200%;
+    
+    
+}
