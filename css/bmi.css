@@ -22,12 +22,12 @@ h2{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-form .section1, .section2{
+form .section1, .section2, .section3{
     color: rgb(58, 27, 233);
     font-size: 22px;
     margin-top: 10px;
 }
-form .section1 input, .section2 input{
+form .section1 input, .section2 input, .section3 input{
     width: 200px;
     border: 1px solid rgb(22, 214, 83);
     outline: none;

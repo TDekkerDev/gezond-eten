@@ -8,27 +8,27 @@ include 'navbar.php';
 ?>
 
 <?php 
-    $errh = $errw = $errg = "";
-    $height = $weight = "";
+    $errh = $errw = $errl = "";
+    $lengte = $gewicht = "";
     $bmipass = "";
     
     if ($_SERVER['REQUEST_METHOD'] == "POST") {
-        if (empty($_POST['height'])) {
-            $errh = "<span style='color:#ed4337; font-size:17px; display:block'>Height is requried</span>";
+        if (empty($_POST['lengte'])) {
+            $errh = "<span style='color:#ed4337; font-size:17px; display:block'>lengte is requried</span>";
         } else {
-            $height = validation($_POST['height']);
+            $lengte = validation($_POST['lengte']);
         }
     
-        if (empty($_POST['weight'])) {
-            $errw = "<span style='color:#ed4337; font-size:17px; display:block'>Weight is requried</span>";
+        if (empty($_POST['gewicht'])) {
+            $errw = "<span style='color:#ed4337; font-size:17px; display:block'>gewicht is requried</span>";
         } else {
-            $weight = validation($_POST['weight']);
+            $gewicht = validation($_POST['gewicht']);
         }
 
-        if (empty($_POST['height'] && $_POST['weight'])) {
+        if (empty($_POST['lengte'] && $_POST['gewicht'])) {
             echo "";
         } else {
-            $bmi = ($weight / ($height * $height));
+            $bmi = ($gewicht / ($lengte * $lengte));
             $bmipass = $bmi;
         }
     }
@@ -44,14 +44,18 @@ include 'navbar.php';
 <h2>Check Your BMI</h2>
 <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
     <div class="section1">
-        <span>Enter Your Height : </span>
-        <input type="text" name="height" autocomplete="off" placeholder="height"><?php echo $errh; ?>
+        <span>type hier je lengte : </span>
+        <input type="text" name="lengte" autocomplete="off" placeholder="lengte"><?php echo $errh; ?>
     </div>
     
     <div class="section2">
-        <span>Enter Your weight : </span>
-        <input type="text" name="weight" autocomplete="off" placeholder="kilogram"><?php echo $errw; ?>
+        <span>type hier je gewicht : </span>
+        <input type="text" name="gewicht" autocomplete="off" placeholder="kilogram"><?php echo $errw; ?>
     </div>    
+    <div class="section3">
+        <span>type hier je leefetijd : </span>
+        <input type="text" name="gewicht" autocomplete="off" placeholder="leeftentijd"><?php echo $errl; ?>
+    </div>  
     <div class="submit">
         <input type="submit" name="submit" value="Check BMI">
         <input type="reset" value="Clear">
